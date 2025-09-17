@@ -15,6 +15,7 @@ Education
 * M.A. in International Relations, Sciences Po Bordeaux, 2025 (expected)
 * B.A. in Political Science, Sciences Po Bordeaux, 2023
 * A.A. in Political Science and History, Paris 1 Panthéon-Sorbonne University, 2022
+  
 Work experience
 ======
 * Spring 2025: EUTW Intern
