@@ -11,36 +11,39 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
+* M.A. in East Asian Studies, National Taiwan University, 2025 (expected)
+* M.A. in International Relations, Sciences Po Bordeaux, 2025 (expected)
+* B.A. in Political Science, Sciences Po Bordeaux, 2023
+* A.A. in Political Science and History, Paris 1 Panthéon-Sorbonne University, 2022
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Spring 2025: EUTW Intern
+  * European Union Center in Taiwan
+  * Duties includes: Social media management, Events planning
+  * Supervisor: Executive Directo Marc Chia-Ching Cheng
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
+* Research Skills
+  * Qualitative methods
+  * Content and discourse analysis
+  * Interviewing
+  * Survey design
+* Data Analysis
+  * Data coding (NVivo - basic)
+  * R programming (basic/beginner level)
+  * Microsoft Excel (intermediate)
+* Academic Writing
+  * Referencing (Zotero - APA, Chicago)
+  * Editing and proofreading
+  * Policy brief and report production
+  * LaTeX (basic/beginner)
+* Languages
+  * French (native)
+  * English (C1 - TOEFL iBT 109)
+  * Spanish (B2)
+  * Mandarin (HSK 2/3)
+  
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
