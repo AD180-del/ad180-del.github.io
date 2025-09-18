@@ -6,6 +6,9 @@ permalink: /coursework-collection/
 Welcome to my coursework archive.
 
 {% for item in site.coursework-collection %}
-  - [{{ item.title }}]({{ item.url }})
+  {% if item.series == nil and item.hidden != true %}
+    - [{{ item.title }}]({{ item.url }})
+  {% endif %}
 {% endfor %}
+
 
