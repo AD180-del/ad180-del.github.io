@@ -5,10 +5,15 @@ title: "IR in Pop Culture"
 
 Welcome to "IR in Pop Culture". This series of short articles aims to explain concepts from IR with the help of pop culture.
 
-<h2> Articles</h2>
-{% for post in site.categories["IR in Pop Culture"] %}
-  [{{ post.title }}]({{ post.url }})
-  {{ post.date | date: "%B %d, %Y" }}
-  {{ post.excerpt }}
-{% endfor %}
+<h2>Articles</h2>
+
+<ul class="post-list">
+  {% for post in site.categories["IR in Pop Culture"] %}
+    <li class="post-item">
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
+      <p class="post-excerpt">{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
 
