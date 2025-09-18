@@ -1,18 +1,23 @@
 .container {
-    width:100%;
-    border:1px solid #d3d3d3;
+    width: 100%;
+    border: 1px solid #353B48;         /* Softer dark border */
+    background-color: #222B3A;         /* Slightly lighter than the page background */
+    color: #E0E0E0;                    /* Consistent text color */
 }
 .container div {
-    width:100%;
+    width: 100%;
 }
 .container .header {
-    background-color:#1A2233 !important;
-    color: #f0f0f0 !important;
+    background-color: #1A2233 !important;
+    color: #F0F0F0 !important;
     padding: 2px;
     cursor: pointer;
     font-weight: bold;
 }
 .container .content {
     display: none;
-    padding : 5px;
+    padding: 5px;
+    background-color: #222B3A;         /* Matches container background */
+    color: #E0E0E0;                    /* Consistent text color */
 }
+
