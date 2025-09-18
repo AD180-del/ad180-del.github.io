@@ -2,7 +2,6 @@
 layout: default
 permalink: /coursework-collection/
 title: "Coursework Collection"
-
 ---
 Welcome to "Coursework Collection". This is an archive of papers and assignments written for university coursework.
 
