@@ -6,10 +6,23 @@ layout: compress
 
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
-  <head>
+    <head>
+    <meta name="color-scheme" content="dark">
+    <style>
+      body { background: #181818; }
+    </style>
+    <script>
+      if (
+        localStorage.getItem('theme') === 'dark' ||
+        (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)
+      ) {
+        document.documentElement.classList.add('dark');
+      }
+    </script>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
+
 
   <body>
 
