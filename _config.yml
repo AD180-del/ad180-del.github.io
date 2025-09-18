@@ -230,9 +230,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  pages:
+ coursework-collection:
     output: true
-    permalink: /:name/
+    permalink: /coursework-collection/:name/
 
 
 # These settings control how pages and collections are included in the site
