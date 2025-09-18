@@ -230,7 +230,7 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
- coursework-collection:
+  coursework-collection:
     output: true
     permalink: /coursework-collection/:name/
 
