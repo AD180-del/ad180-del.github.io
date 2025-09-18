@@ -195,10 +195,6 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-collections:
-  pages:
-    output: true
-    permalink: /:name/
 
 # Conversion
 markdown: kramdown
@@ -234,6 +230,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  pages:
+    output: true
+    permalink: /:name/
 
 
 # These settings control how pages and collections are included in the site
