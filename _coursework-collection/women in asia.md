@@ -1,7 +1,7 @@
 ---
 title: "Women in Asia"
 layout: default
-permalink: /coursework-collection/women in asia
+permalink: /coursework-collection/women-in-asia
 ---
 # Women in Asia
 
