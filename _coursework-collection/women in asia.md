@@ -1,6 +1,12 @@
 ---
 title: "Women in Asia"
+layout: default
+permalink: /coursework-collection/women in asia
 ---
-Essay content goes here.
+# Women in Asia
 
-yrdy
+## Parts
+{% assign essay_parts = site.coursework | where: "series", "My Long Essay" | sort: "part" %}
+{% for part in essay_parts %}
+- [{{ part.title }}]({{ part.url }})
+{% endfor %}
