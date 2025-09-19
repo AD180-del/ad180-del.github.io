@@ -42,4 +42,16 @@ html[data-theme="dark"] {
     --global-text-color           : #{$text};
     --global-link-color           : #{$link};
 }
+/* Make footnotes and their references larger in dark theme */
+html[data-theme="dark"] {
+    .footnotes,
+    .footnote,
+    .footnote-ref,
+    .footnote-backref,
+    sup {
+        font-size: 1em !important;
+        color: $text; // This line is optional for color consistency
+    }
+}
+
 
